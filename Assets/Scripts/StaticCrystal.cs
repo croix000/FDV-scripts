@@ -15,12 +15,7 @@ public class StaticCrystal : MonoBehaviour
     [SerializeField] GameObject player;
     List<Vector3> positionsToTeleport;
 
-    void Start()
-    {
 
-    
-
-    }
 
     void Update()
     {
