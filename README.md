@@ -2,13 +2,16 @@
 
 ![](gif.gif)
 
+## Actividad Sprites
+En esta actividad realizaremos pruebas con las herramientas para el manejo y edición de Sprites en un juego 2D que proporciona Unity. Los Sprites son uno de los elementos básicos en las aplicaciones 2D en Unity. Tienen componente Transform, como todo objeto en la escena y un componente Renderer.
 
-## Proyecto básico en Unity
-Implementar una aplicación en Unity3D en la que habrá una serie de objetos dispuestos en la escena y que proporcionarán poderes al jugador (otro objeto).
+Podemos utilizar Sprites o Atlas de Sprites como Assets.
+Las animaciones de los elementos de la escena se generan a partir de un conjunto de Sprites. Si las imágenes de una animación están en un Atlas deben ser extraídas antes de generar la animación.
+Los Sprites se pueden mover mediante el Transform o mediante Físicas. En esta práctica seguimos moviendo objetos utilizando el Transform.
+Actividades a realizar:
 
-- Todos los objetos pueden ser formas básicas (cubos, esferas, cilindros).
-- Los objetos se distribuyen por la escena y se catalogan en dos tipos, en movimiento rectilíneo y estáticos.
-- Los objetos estáticos actualizan su posición cada cierto tiempo intercambian sus posiciones.
-- Cada objeto proporciona una puntuación diferente.
-- El jugador incrementa su puntuación siempre que esté a una distancia menor que un umbral del objeto.
-- Cuando el jugador suma puntos, las dimensiones del objeto disminuyen y se atenúa su color, cuando se llega a un umbral desaparece el objeto.
+- Obtener assets que incorpores a tu proyecto: Sprites individuales y Atlas de Sprites.
+- Incorporar los recursos del punto 1 en el proyecto y generar al menos 2 animaciones para uno de los personajes.
+- Busca en el inspector de objetos la propiedad Flip y comprueba qué pasa al activarla desactivarla en alguno de los ejes.
+- Mover uno de os personajes con el eje horizontal virtual que definen las teclas de flechas.
+- Crear una animación para otro personaje, que se active cuando el personaje esté a una distancia menor que un determinado umbral.
